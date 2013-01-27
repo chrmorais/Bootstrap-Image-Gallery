@@ -53,7 +53,7 @@ $(function () {
     });
 
     // Load images via flickr for demonstration purposes:
-    $.ajax({ url: 'gallery.json' }).done(function (data) {
+    $.get('gallery.json',function (data) {
         var gallery = $('#gallery');
         $.each(data.photos, function (index, photo) {
             $('<a data-gallery="gallery"/>')
@@ -62,5 +62,5 @@ $(function () {
                 .prop('title', photo.title)
                 .appendTo(gallery);
         });
-    });
+    },"json");
 });
