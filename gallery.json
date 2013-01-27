@@ -1,0 +1,8 @@
+{ "photos": [
+  {"url":"pics/iran.png","thumbnail":"thumbnails/iran.png","title":"Iran"},
+  {"url":"pics/ireland.png","thumbnail":"thumbnails/ireland.png","title":"Ireland"},
+  {"url":"pics/jordan.png","thumbnail":"thumbnails/jordan.png","title":"Jordan"},
+  {"url":"pics/palestine.png","thumbnail":"thumbnails/palestine.png","title":"Palestine"},
+  {"url":"pics/spain.png","thumbnail":"thumbnails/spain.png","title":"Spain"},
+  {"url":"pics/syria.png","thumbnail":"thumbnails/syria.png","title":"Syria"}
+]}

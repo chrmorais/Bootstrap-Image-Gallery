@@ -12,7 +12,7 @@
 
 body {
     padding-top: 60px;
-    background: #222;
+    background: #333;
     color: #fff;
 }
 header {
@@ -29,3 +29,5 @@ header a {
 .modal {
     color: #333;
 }
+
+#gallery a img { margin:4px; }
